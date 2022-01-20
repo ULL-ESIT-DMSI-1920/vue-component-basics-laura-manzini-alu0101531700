@@ -54,17 +54,17 @@ Files [click-counter/solution.html](click-counter/solution.html) and [click-coun
 - [x] Set the initial HTML and load Vue from the CDN
 - [x] Inside the app create the Vue app attached to the corresponding div element 
 - [x] Create a component `click-counter` using `Vue.component`
-  - [ ] Add the `data` function that returns the object with the data. 
-  - [ ] Set the `count`
-  - [ ] In the template add the `v-on` to increase the counter each time the button is clicked
-- [ ] Add in the `app` div of the HTML the component just created
-- [ ] Insert new instances of the component in the HTML
-- [ ] Move the template from the `app.js` to the HTML using  a `script` tag
-- [ ]  Instead of `<script type= 'text/x-template' ...>` try also to use the [`<template>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template) HTML tag. 
+  - [x] Add the `data` function that returns the object with the data. 
+  - [x] Set the `count`
+  - [x] In the template add the `v-on` to increase the counter each time the button is clicked
+- [x] Add in the `app` div of the HTML the component just created
+- [x] Insert new instances of the component in the HTML
+- [x] Move the template from the `app.js` to the HTML using  a `script` tag
+- [x]  Instead of `<script type= 'text/x-template' ...>` try also to use the [`<template>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template) HTML tag. 
   Does it works?
-- [ ] Add a second element, a paragraph `the count is` to the `click-counter` component 
-- [ ] Wrap the two elements in a `<div>`
-- [ ] Move all the code from `app.js` to the HTML `index.html` 
+- [x] Add a second element, a paragraph `the count is` to the `click-counter` component 
+- [x] Wrap the two elements in a `<div>`
+- [x] Move all the code from `app.js` to the HTML `index.html` 
 - [ ] Add a `prop` with name `click-title` to the `click-counter` component so that instead of the fixed `"the count is"`, the parent component can specify the prefix paragraph:
 
   ```html
