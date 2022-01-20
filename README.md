@@ -1,4 +1,8 @@
-# Vue.js Components Basics
+# Práctica Vue.js Components Basics
+
+Estudiante: Laura Manzini - *alu0101531700@ull.edu.es*
+
+## Introduction
 
 This lab corresponds to the section **Component Basics** of the VueSchool course 
 [Vue.js Components Fundamentals](https://vueschool.io/courses/vuejs-components-fundamentals)
@@ -207,3 +211,8 @@ After this lab, you'll be familiar with:
 - Component's template, and couple of ways to define your template
 - Communication between components with props and custom events
 - What is the difference between global and local component registration
+
+## Further details
+
+For more details on the introduction to Vue please follow this [repository](https://github.com/ULL-ESIT-DMSI-1920/vue-intro-laura-manzini-alu0101531700.git).
+
