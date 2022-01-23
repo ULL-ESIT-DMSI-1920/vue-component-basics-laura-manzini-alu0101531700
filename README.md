@@ -160,11 +160,11 @@ See the solution working at <https://crguezl.github.io/vuejs-components-basics-p
 
 #### [Global vs Local Components](https://vueschool.io/lessons/global-vs-local-components)
 
-- [ ] Make the `plan` component local to the `plan-picker` component
-  - [ ] Check that a local component can not be used out of its scope
-- [ ] Make the `plan-picker` component local to the root component
-  - [ ] Register first the component with the name `planPicker` and try to use it. What happens?
-  - [ ] Change the name to `plan-picker`
+- [x] Make the `plan` component local to the `plan-picker` component
+  - [x] Check that a local component can not be used out of its scope
+- [x] Make the `plan-picker` component local to the root component
+  - [x] Register first the component with the name `planPicker` and try to use it. What happens? *The options do not appear*
+  - [x] Change the name to `plan-picker`
 
 
 #### [Communication Between Components with Custom Events](https://vueschool.io/lessons/communication-between-components) Video
