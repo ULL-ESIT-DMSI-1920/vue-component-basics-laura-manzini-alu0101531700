@@ -130,7 +130,7 @@ See the solution working at <https://crguezl.github.io/vuejs-components-basics-p
 
 #### [Reusable Components with Props](https://vueschool.io/lessons/reusable-components-with-props)
   
-- [ ]  Use a minimum number of emmet expressions to generate complete the initial `index.html` to have it as at the beginning of the video [Reusable Components with Props](https://vueschool.io/lessons/reusable-components-with-props). The structure to replicate three or four times has to follow this pattern:
+- [x]  Use a minimum number of emmet expressions to generate complete the initial `index.html` to have it as at the beginning of the video [Reusable Components with Props](https://vueschool.io/lessons/reusable-components-with-props). The structure to replicate three or four times has to follow this pattern:
   
   ```html
         <div class="plans">
@@ -144,19 +144,19 @@ See the solution working at <https://crguezl.github.io/vuejs-components-basics-p
             ...  more like the one above
         </div>
   ```
-  - [ ] Here is a [solution](plan-picker/solution.emmet)
-- [ ] Load Vue from the CDN and add the main app
-- [ ] Create the `plan` component that encapsulates the template above
-- [ ] Add it the `prop` with the `name`, interpolate it inside the component template and update the calls in the HTML accordingly for all the repetitions
-- [ ] Add to the Vue app data the `plans` array of Strings with the names of the plans
-- [ ] Substitute the repetitions of the `<plan>` component  inside  the HTML for a `v-for`  loop
-- [ ] Specify that the `prop` `name` has to be of type `String` and is `required`
+  - [x] Here is a [solution](plan-picker/solution.emmet)
+- [x] Load Vue from the CDN and add the main app
+- [x] Create the `plan` component that encapsulates the template above
+- [x] Add it the `prop` with the `name`, interpolate it inside the component template and update the calls in the HTML accordingly for all the repetitions
+- [x] Add to the Vue app data the `plans` array of Strings with the names of the plans
+- [x] Substitute the repetitions of the `<plan>` component  inside  the HTML for a `v-for`  loop
+- [x] Specify that the `prop` `name` has to be of type `String` and is `required`
 
 
 #### [Nested Components](https://vueschool.io/lessons/nested-components) Video
 
-- [ ] Create a component with name `<plan-picker>`  to encapsulate the `.plans` div
-- [ ] Create the template for the component and move the `plans` array into the component
+- [x] Create a component with name `<plan-picker>`  to encapsulate the `.plans` div
+- [x] Create the template for the component and move the `plans` array into the component
 
 #### [Global vs Local Components](https://vueschool.io/lessons/global-vs-local-components)
 

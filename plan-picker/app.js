@@ -1,3 +1,13 @@
+Vue.component('plan-picker', {
+    template: '#plan-picker-template',
+    data() {
+      return {
+        plans: ['The Single', 'The Cappuccino', 'The Addict', 'The Double']
+      }
+    }
+  })
+
+
 Vue.component('plan', {
     template: '#plan-template',
     props: {
@@ -9,8 +19,5 @@ Vue.component('plan', {
   })
   
   new Vue({
-    el: '#app',
-    data: {
-      plans: ['The Single', 'The Cappuccino', 'The Addict', 'The Double']
-    }
+    el: '#app'
   }) 
